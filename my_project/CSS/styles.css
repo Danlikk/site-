@@ -1,0 +1,126 @@
+/* Стили для медиа-запросов */
+@media only screen and (max-width: 479px) {
+    .puwcIf {
+        font-size: 20.0pt;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .puwcIf {
+        font-size: 22.0pt;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .puwcIf {
+        font-size: 24.0pt;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .puwcIf {
+        font-size: 24.0pt;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .CGqCRe {
+        font-size: 27.0pt;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .CGqCRe {
+        font-size: 32.0pt;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .CGqCRe {
+        font-size: 36.0pt;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .CGqCRe {
+        font-size: 36.0pt;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .jgG6ef {
+        font-size: 17.0pt;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .jgG6ef {
+        font-size: 17.0pt;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .jgG6ef {
+        font-size: 18.0pt;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .jgG6ef {
+        font-size: 18.0pt;
+    }
+}
+
+.htnAL {
+    height: 27.0pt;
+    font-size: 12.0pt;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.QmpIrf {
+    background-color: rgba(37,37,34,1);
+    color: rgba(249,249,249,1);
+    border-color: rgba(37,37,34,1);
+}
+
+.xkUom {
+    background-color: rgba(0,0,0,0);
+    color: rgba(37,37,34,1);
+    border-color: rgba(37,37,34,1);
+}
+
+.KjwKmc {
+    background-color: rgba(0,0,0,0);
+    color: rgba(37,37,34,1);
+    border-color: rgba(0,0,0,0);
+}
+
+.qeLZfd .QmpIrf {
+    background-color: rgba(37,37,34,1);
+    color: rgba(249,249,249,1);
+    border-color: rgba(37,37,34,1);
+}
+
+.qeLZfd .xkUom {
+    background-color: rgba(0,0,0,0);
+    color: rgba(37,37,34,1);
+    border-color: rgba(37,37,34,1);
+}
+
+.qeLZfd .KjwKmc {
+    background-color: rgba(0,0,0,0);
+    color: rgba(37,37,34,1);
+    border-color: rgba(0,0,0,0);
+}
+
+/* Отключаем прокрутку внутри iframe */
+iframe {
+    pointer-events: none;
+}
+
+/* Исключение для активных элементов */
+iframe:focus {
+    pointer-events: auto;
+}
